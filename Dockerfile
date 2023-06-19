@@ -5,5 +5,6 @@ RUN dnf update -y && \
     make \
     git \
     zip \
+    wget \
     unzip && \
     dnf clean all
