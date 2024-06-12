@@ -1,4 +1,4 @@
-FROM amazonlinux:2023
+FROM amazonlinux:2023.4.20240416.0
 
 RUN dnf update -y && \
     dnf install -y \
